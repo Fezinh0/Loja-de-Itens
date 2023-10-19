@@ -1,2 +1,5 @@
-# Loja-de-Itens
-Este Projeto consiste em replicar a loja de itens do jogo Fortnite
+<div>
+    <img src="assets/img/site.png" width="2000px" alt="Imagem do site" title="Imagem do site"/>  
+</div>
+
+

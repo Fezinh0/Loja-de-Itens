@@ -1,6 +1,6 @@
 <h1 align="center">Loja de itens - Fortnite</h1>
 <div>
-    <img src="ProjetoFortniteP/assets/img/mysite.png" width="2000">
+    <img src="" width="2000">
 </div>
 <div align="center">
     <p>Seja bem vindo(a) a loja de itens</p>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seja Bem-vindo(a) a loja de itens">
+    <title>Loja de Itens</title>
+
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Icon barra de navegação -->
+    <link rel="icon" type="jpg" href="assets/img/Vbucks.png">
+</head>
+
+<body>
+    <header id="cabecalho">
+
+        <!-- Titulo -->
+        <h1 class="title">Loja de itens</h1>
+
+        <!-- Menu Mobile-->
+        <nav id="nav">
+            <button id="btn-mobile">
+                MENU
+            </button>
+            <ul id="menu">
+                <li>
+                    <div class="add">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <style>
+                                svg {
+                                    fill: #ffffff
+                                }
+                            </style>
+                            <path
+                                d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                        </svg>
+                        <p>347</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="vbucks">
+                        <img src="assets/img/Vbucks.png" alt="moeda de compra do jogo">
+                        <p>4.000</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hamburguer">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                    </div>
+                </li>
+                <li>JOGAR</li>
+                <li>PASSE DE BATALHA</li>
+                <li>COMPETIR</li>
+                <li>VESTIÁRIO</li>
+                <li>LOJA DE ITENS</li>
+                <li>CARREIRA</li>
+                <li>V-BUCKS</li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Body -->
+    <main id="meio">
+
+        <!-- Contador -->
+        <div id="timerP">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                <style>
+                    svg {
+                        fill: #ffffff
+                    }
+                </style>
+                <path
+                    d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+            </svg>
+            <div id="mTimer"></div>
+        </div>
+
+
+        <!-- Cards Destaque -->
+        <div class="cards">
+
+            <!-- Destaques -->
+            <div id="menuCompra">
+                <p>Destaques</p>
+            </div>
+
+            <div class="card">
+
+                <img src="assets/img/itensloja/guardamoita.png" alt="Skin Guarda moita - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nomeItem">GUARDA MOITA</figcaption>
+                    <figcaption class="funcitem">Traje</figcaption>
+                </div>
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">1.200</figcaption>
+                </div>
+            </div>
+
+            <div class="card" style="background-color: #37943f;">
+
+                <img src="assets/img/itensloja/golfereta.png" alt="Picareta Golfereta - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nameitem">GOLFERETA</figcaption>
+                    <figcaption class="funcitem">Ferramenta de coleta</figcaption>
+                </div>
+
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">800</figcaption>
+                </div>
+            </div>
+
+            <div class="card" style="background-color:#cc5916;">
+
+                <img src="assets/img/itensloja/renegade.png" alt="Skin Renegade Flamejante - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nameitem">RENEGADE FLAMEJANTE</figcaption>
+                    <figcaption class="funcitem">Traje</figcaption>
+                </div>
+
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">1.500</figcaption>
+                </div>
+            </div>
+
+            <!-- Diários -->
+            <div id="menuCompra">
+                <p>Diário</p>
+            </div>
+
+            <!-- Cards Diarios menores -->
+            <div class="cardMDisplay">
+
+                <div class="cardM">
+                    <img src="assets/img/itensloja/mistificada.png" alt="Skin Mistificada - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">MISTIFICADA</figcaption>
+                        <figcaption class="funcitem">Traje</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">1.200</figcaption>
+                    </div>
+                </div>
+
+                <div class="cardM" style="background-color: #37943f;">
+                    <img src="assets/img/itensloja/balanoalvo.png" alt="Skin Bala no Alvo - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">BALA NO ALVO</figcaption>
+                        <figcaption class="funcitem">Traje</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">800</figcaption>
+                    </div>
+                </div>
+
+                <div class="cardM" style="background-color: #6d07ad;">
+                    <img src="assets/img/itensloja/magma.png" alt="Envelopamento Magma - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">MAGMA</figcaption>
+                        <figcaption class="funcitem">Envelopamento</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">700</figcaption>
+                    </div>
+                </div>
+
+                <div class="cardM" style="background-color: #3a87eb;">
+                    <img src="assets/img/itensloja/twist.jpg" alt="Gesto ou Dança Twist - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">TWIST</figcaption>
+                        <figcaption class="funcitem">Gesto</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">500</figcaption>
+                    </div>
+                </div>
+                <div class="cardM" style="background-color: #37943f;">
+                    <img src="assets/img/itensloja/quebragelo.png" alt="Picareta Quebra Gelo - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">QUEBRA GELO</figcaption>
+                        <figcaption class="funcitem">Ferramenta de coleta</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">500</figcaption>
+                    </div>
+                </div>
+
+                <div class="cardM" style="background-color: #3a87eb;">
+                    <img src="assets/img/itensloja/pegaonda.png" alt="Skin Pega Onda - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">PEGA ONDA</figcaption>
+                        <figcaption class="funcitem">Traje</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">1.200</figcaption>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Ofertas especiais -->
+            <div id="menuCompra">
+                <p>OFERTAS ESPECIAIS</p>
+            </div>
+
+            <!-- Cards ofertas especiais -->
+            <div class="card" style="background-color: #d10505;">
+
+                <img src="assets/img/itensloja/blackwindow.png" alt="Skin Viuva Negra  - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nameitem">VIÚVA NEGRA</figcaption>
+                    <figcaption class="funcitem">Traje</figcaption>
+                </div>
+
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">1.500</figcaption>
+                </div>
+            </div>
+
+            <div class="card" style="background-color: #d10505;">
+
+                <img src="assets/img/itensloja/windowsbite.png" alt="Picareta Viuva Negra  - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nameitem">PICADA DA VIÚVA-NEGRA</figcaption>
+                    <figcaption class="funcitem">Ferramenta de coleta</figcaption>
+                </div>
+
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">800</figcaption>
+                </div>
+            </div>
+
+            <div class="card" style="background-color: #d10505;">
+
+                <img src="assets/img/itensloja/asadeltaepico.png" alt="Asa delta  - Fortnite">
+
+                <div class="descricao">
+                    <figcaption class="nameitem">VIÚVA VOADORA</figcaption>
+                    <figcaption class="funcitem">Gesto</figcaption>
+                </div>
+
+                <div class="valor">
+                    <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                    <figcaption class="vBucks">800</figcaption>
+                </div>
+            </div>
+
+            <!-- Card Bundle -->
+            <div id="bundleP">
+
+                <div class="cardBundle" style="background-color: #bc0808;">
+
+                    <img src="assets/img/itensloja/bundle.jpg" alt="Bundle Viuva Negra  - Fortnite">
+
+                    <div class="descricao">
+                        <figcaption class="nameitem">CONJUNTO VIÚVA NEGRA</figcaption>
+                        <figcaption class="funcitem">pack</figcaption>
+                    </div>
+
+                    <div class="valor">
+                        <img src="assets/img/Vbucks.png" alt="V-bucks moeda de compra do jogo">
+                        <figcaption class="vBucks">2.200</figcaption>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Informções de compra -->
+            <div class="important">
+                <p>Esses itens cosméticos não concedem vantagem competitiva. Asas-deltas e Rastros de Fumaça não podem
+                    ser
+                    usados no Modo Salve o Mundo. Trajes e Envelopamentos não incluem armas. </p>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- Seção do criador -->
+    <div class="Ocriador">
+        <section class="pCriador" id="submit">
+            <div class="Acriador">
+                <p>APOIE-UM-CRIADOR</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="dialog" title="APOIE-UM-CRIADOR" style="display:none;">
+        <p>Declare seu apoio a um criador! Suas compras no jogo vão ajudar a apoiar este Criador</p>
+        <label for="criador"></label>
+        <input type="text" id="text">
+        <button class="btApoiador">Enviar</button>
+    </div>
+
+    <!-- Footer -->
+    <footer id="rodape">
+
+        <!-- Contato e afins -->
+        <address class="Mcontato">
+            <ul class="meuContato">
+                <li><a href="https://github.com/Fezinh0"><img class="cimg" src="assets/img/icons/github.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/fernando-oliveira-0001a0236/"><img class="cimg"
+                            src="assets/img/icons/linkedin.png"></a></li>
+            </ul>
+        </address>
+
+        <!-- Minha assinatura -->
+        <div class="assinatura">
+            <span>Copyright © 2023 by Fernando Oliveira | All Rights Reserved</span>
+        </div>
+
+    </footer>
+</body>
+
+<script defer src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+    $(function () {
+        $(".widget input[type=submit], .widget a, .widget button").button();
+        $("button, input, a").click(function (event) {
+            event.preventDefault();
+        });
+    });
+</script>
+<!---  jQuery UI Dialog message --->
+<script>
+    $(document).ready(function () {
+        $("#submit").on("click", function () {
+            $("#dialog").dialog();
+        });
+    });
+</script>
+
+</html>

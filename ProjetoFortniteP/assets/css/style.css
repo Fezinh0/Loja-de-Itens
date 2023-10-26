@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root {
+    --azul: #3a87eb;
+    --azulborda: #0021dd;
+    --azulbt: #2478d8;
+    --azulbt2: #0a386d;
+    --branco: #fff;
+    --azulmarinho: #051041;
+    --laranja: #cc5916;
+    --verde: #37943f;
+    --vermelho: #bc0808;
+    --preto: #000;
+    --transparente: #c9c9c93b;
+    --azulbg: #73a3e221;
+    --roxo: #6d07ad;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--azul);
+}
+
+#cabecalho {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--azulmarinho);
+}
+
+#btn-mobile img {
+    width: 30px;
+    background-color: none;
+    
+}
+
+.title {
+    color: var(--branco);
+    font-family: Bangers;
+    margin: 20px 0px 0px 15px;
+}
+
+#infoIcones {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.add {
+    color: var(--preto);
+    background-color: var(--azul);
+    font-family: Bangers;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    gap: 0.7em;
+    width: 4em;
+    height: 1.9em;
+    border-radius: 0.7em;
+}
+
+.vbucks {
+    background-color: var(--azul);
+    color: var(--preto);
+    font-family: Bangers;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+    gap: 0.4em;
+    width: 5em;
+    height: 2.0em;
+    border-radius: 0.7em;
+}
+
+.vbucks img {
+    width: 30%;
+}
+
+#menuCompra {
+    font-family: Bangers;
+    color: var(--branco);
+    font-size: 18pt;
+}
+
+#timerP {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+
+#mTimer {
+    color: var(--branco);
+    font-family: Bangers;
+    font-size: 20pt;
+}
+
+.infoLoja {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    color: var(--branco);
+    font-family: Bangers;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+    gap: 2em; 
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 327px;
+    border: 2px solid var(--branco);
+    border-radius: 0.1em;
+}
+
+.card img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardMDisplay {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+    gap: 0.4em;
+}
+
+.cardM {
+    width: 160px;
+    height: 236px;
+    border: solid 2px var(--branco);
+    border-radius: 0.1em;
+}
+
+.cardM img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardBundle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 275px;
+    border: 2px solid var(--branco);
+    border-radius: 0.1em;
+}
+
+.descricao {
+    width: 100%;
+    height: 44px;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-family: Bangers;
+    text-align: center;
+    gap: 0.5em;
+    background-color: var(--transparente);
+}
+
+.valor {
+    height: 2.0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azulmarinho);
+    color: var(--branco);
+    font-family: Bangers;
+    gap: 0.2em;
+}
+
+.valor img{
+    width: 10%;
+}
+
+.funcitem {
+    font-family: sans-serif;
+}
+
+.adds {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    color: var(--branco);
+}
+
+.important {
+    width: 80%;
+    color: var(--branco);
+    font-family: Verdana;
+    font-size: x-small;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape {
+    margin: 0;
+    gap: 1.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azulmarinho);
+}
+
+.Ocriador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dialog {
+    border-radius: 5px;
+    background-color: var(--azulmarinho);
+    color: var(--branco);
+}
+
+#dialog input {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btApoiador {
+    background-color: var(--azulborda);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.btApoiador:hover {
+    box-shadow: var(--branco) 1px 1px 5px;
+    transition: box-shadow 1s;
+}
+
+#pCriador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Acriador {
+    cursor: pointer;
+    margin:  0 0 20px 0;
+    width: 85%;
+    background-color: var(--azulborda);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 0.3em;
+    font-family: Bangers;
+}
+
+.Acriador:hover {
+    box-shadow: var(--branco) 1px 0px 4px 1px;
+    transition: box-shadow 1s;
+}
+
+.assinatura {
+    margin: 0 0 10px 0;
+    background-color: var();
+    color: var(--branco);
+    text-align: center;
+    font-family: verdana;
+    width: 100%;
+}
+
+.cimg {
+    width: 50px;
+}
+
+.Mcontato {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.meuContato {
+    list-style: none;
+    color: var(--branco);
+}
+
+#btn-mobile {
+    display: block;
+}
+
+#menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 84px;
+    right: 0;
+    background: var(--azulmarinho);
+    color: var(--branco);
+    z-index: 1000;
+    height: 10px;
+    transition: .5s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#nav.active #menu {
+    height: calc(100vh - 55%);
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    font-family: Bangers;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: visible;
+    border-bottom: solid 1px var(--preto);
+}
+
+#menu a {
+    padding: 1rem 0;
+    border-bottom: solid 1px var(--preto);
+}
+
+#btn-mobile {
+    position: absolute;
+    right: 0;
+    top: 42px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    border-radius: 4px;
+    background-color: var(--branco);
+    color: var(--preto);
+    padding: 7px;
+    border: solid 2px var(--branco);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-mobile:hover {
+    border-color: var(--preto);
+    transition: border-color 1s;
+}
+
